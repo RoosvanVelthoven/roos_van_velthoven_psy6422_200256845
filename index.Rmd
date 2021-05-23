@@ -19,7 +19,7 @@ Please ensure you have installed:
 * Git (for [Windows](https://git-scm.com/download/win) or [Mac](https://git-scm.com/download/mac))  
 * [MikTex](https://miktex.org/download)  
 
-For my GitHub repository please click [here](https://github.com/RoosvanVelthoven/roos_van_velthoven_psy6422)  
+For my GitHub repository please click [here](https://github.com/RoosvanVelthoven/roos_van_velthoven_psy6422_200256845)  
 * Please clone my git repository  
 * Please open index.Rmd  
 * Please enter renv::restore()  
