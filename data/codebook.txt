@@ -12,7 +12,7 @@ GAME_ID = ID of the game
 GAME_STATUS_TEXT = Game status (final means that the game was completed)
 HOME_TEAM_ID = ID of the home team
 VISITOR_TEAM_ID = ID for the visitor team
-SEASON = Season of when the game occurred
+SEASON = Season of when the game occurred (e.g., season 2015 = the season that started in 2015 and ended in 2016)
 TEAM_ID_home = ID of the home team (duplicate of HOME_TEAM_ID)
 PTS_home = Number of points scored by the home team
 FG_PCT_home = Field goal percentage of the home team
@@ -27,6 +27,6 @@ FT_PCT_away = Free throw percentage of the away team
 FG3_PCT_away = Three-point percentage of the away team
 AST_away = Assists of the away team
 REB_away = Rebounds of the away team
-HOME_TEAM_WINS = Did the home team win? 0 = home team lost whereas 1 = home team won
+HOME_TEAM_WINS = Did the home team win? 0 = home team lost; 1 = home team won
 
 Of interest to the current project are: SEASON, PTS_home, PTS_away and HOME_TEAM_WINS.
