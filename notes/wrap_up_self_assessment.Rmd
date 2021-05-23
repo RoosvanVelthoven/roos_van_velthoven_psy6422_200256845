@@ -1,0 +1,32 @@
+---
+title: "PSY6422 final self-assessment"
+author: "Roos van Velthoven"
+date: "17/05/2020"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+# Marking Criteria
+
+Submits by 12 noon on the 24th of May 2021 in PDF by email to ``t.stafford@shef.ac.uk``
+
+Answers the questions in the headings below, showing evidence of engagement with the course
+
+Note: I expect and hope that all students can get full marks for this assessment. There is no word limit, but short is sweet. I suggest you write between 3 sentences and 3 paragraphs for each.
+
+# Final Self-assessment for PSY6422
+
+## 1. Which topic did I find most useful or interesting? Explain why
+I find this question difficult to answer as I enjoyed most of the topics. However, I think the most useful topic would be the data wrangling topic. I was amazed to see how much you can change and adjust through code (e.g., renaming columns, merging data frames, and removing variables). I have worked with excel and SPSS before and I have spent many hours trying to get my data frames perfect. I love the aspect that you can reuse your code. In the future if I am working on a large project I could figure out the code for one of my data frames and then apply this code to the rest of my data frames, to ensure they all have the same format. I am a very organised person and I love that through code you can easily have the same structure across different data frames without the possibility of error.
+
+## 2. Which topic did I find least useful, interesting or most difficult? Explain why
+I found the ssh and the command line topic the most difficult. At first I did not really understand why it would be useful to know how to do this. In addition, it was difficult to follow along as Danielle was using a MAC whilst I was using a Windows PC. Maybe in the future three different people (e.g., students) could share their screens. One on MAC, one on Windows and one on Linux, so that students can see their own perspectives. However, when I started working with git bash (which I thought was very similar to the command prompt) this topic helped me appreciate the ssh and the command line topic. When I started to get used to the different things we have to type in, it was actually really easy to use. Moreover, I really enjoyed the ssh and the command line topic as we went along with the lecture and I now understand that it can be very useful (e.g., to run data analysis (of large amounts of data) on another computer as my computer may not be capable to do so).   
+
+## 3. What topics do I want to learn more about in the future? Explain why
+I would like to learn more about animated plots. I really like animated plots as it is a way to show how data is changing over time. They can be very easy to understand. Furthermore, they can be very beautiful, and they are very fun to play around with. In addition, I think being able to show an animated GIF may be useful for future job opportunities as it exhibits that data can be very interesting and easy to understand.
+Secondly, I would like to learn more about data scraping. I think that as technology improves more and more data will be shared and available online. Therefore, for future career opportunities, it would be useful to know how to collect this data for further processing.
+
+## 4. Please share one thing you have read and enjoyed or found useful on the topic of data management and/or visualisation
+I have found the entire module very useful and enjoyable. The one thing I found the most useful was the information given to us about project organisation. I have never thought about how important it is to adequately name things and organise things (and how much time you can save by doing so). I really enjoyed the lecture and I presently make sure that I name everything properly. In fact, when I see data that does not follow the recommendations of Dr Tom Stafford I find myself making corrections (e.g., making sure that variables and files do not contain capitals or spaces).  
