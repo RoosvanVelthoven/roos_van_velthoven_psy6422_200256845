@@ -27,7 +27,7 @@ For my GitHub repository please click [here](https://github.com/RoosvanVelthoven
 * Please enter renv::restore()  
 * Please enter y  
 
-*Please utilize the above steps to restore the project library, locally, on your machine.*
+*Please utilize the aforementioned steps to restore my project library, locally, on your machine.*
 
 ```{r, include = FALSE}
 
@@ -269,7 +269,7 @@ saveGIF({
 
   mx <- mean(nba_final_df[,points_home[i]], na.rm = TRUE)
 # This will be used for my subtitle, it determines the mean value of points scored by the home team in a certain season and then assigns it to an object.   
-# na.rm = TRUE removes missing values in the calculation
+# na.rm = TRUE removes missing values of the data (so they do not affect mean scores)
   my <- mean(nba_final_df[,points_away[i]], na.rm = TRUE)
 # This will be used for my subtitle, it determines the mean value of points scored by the away team in a certain season and then assigns it to an object.
 
@@ -277,7 +277,7 @@ saveGIF({
       ggplot(data = nba_final_df,
            mapping = aes_string (x = points_home[i],
 # First lists of variables to iterate over
-                                 y =   points_away[i], 
+                                 y = points_away[i], 
 # Second lists of variables to iterate over
                                  colour = home_win[i], 
 # Code to have different colours for games won or lost by the home team
@@ -317,7 +317,7 @@ mean points scored by the away team = %.1f", mx,my)) +
 
 ```{r, echo = FALSE}
 
-# Code necessary to exhibit my gif in my index.html
+# Code necessary to exhibit my GIF in my index.html
 knitr::include_graphics("visualisation.gif")
 
 ```
@@ -329,14 +329,14 @@ file.copy("visualisation.gif", here("figs"), overwrite = TRUE)
 
 ```
 
-The home team scores, on average, more than the away team (please see the subtitle).
+The home team scored, on average, more than the away team (please see the subtitle).
 
 However, the number of games won by the home team (blue) and the away team (red) appears very similar. The impact of home advantage may, thus, not be very large.
 
 \**Please allow eight seconds for the graph to update*  
 
 # Summary
-In sum, the visualisation shows that, although the home team, on average, scores more points than the away team, the difference is not large; the visualisation suggests that the number of points scored by home teams and away teams are similar. When exploring home advantage data, it may, thus, be useful to visualise variables.
+In sum, the visualisation showed that, although the home team, on average, scored more points than the away team, the difference is not large; the visualisation suggests that the number of points scored by home teams and away teams are similar. When exploring home advantage data, it may, thus, be useful to visualise variables.
 
 If I had more time, I would create an interactive web application, through the shiny package. I would like to give users the opportunity to decide which season to look at.
 Moreover, I would have visualised additional variables (e.g., fouls, three throws or home win ratios) to explore how they impact home advantage.

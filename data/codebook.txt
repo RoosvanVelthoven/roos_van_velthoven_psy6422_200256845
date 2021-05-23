@@ -1,7 +1,7 @@
 Where did the data come from?
 
 The data set (games.csv) was obtained through https://www.kaggle.com/nathanlauga/nba-games, the data set was published by Nathan Lauga.  
-The data was collected from https://www.nba.com/stats/, please see https://github.com/Nathanlauga/nba-predictor for more information (and please see https://github.com/swar/nba_api/blob/master/docs/table_of_contents.md for more information on API endpoints).  
+The data was collected from https://www.nba.com/stats/, please see https://github.com/Nathanlauga/nba-predictor for more information (and please see https://github.com/swar/nba_api/blob/master/docs/table_of_contents.md for more information on Application Programming Interface (API) endpoints).  
 
 What is in the data?
 The data set contains NBA games from 05/10/2003 till present (the data is updated periodically; the expected update frequency is quarterly).  
