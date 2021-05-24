@@ -3,7 +3,7 @@ In short, it is my project for the PSY6422 module.
 The project is complete, it includes raw data, scripts, documentation, and visualisations shared in a way that allows visualisations to be reproduced and understood.
 
 What is in each folder?
-roos_van_velthoven_psy6422_200256845 = contains the below folders and .gitignore, .Rhistory, .Rprofile, core_code.R (code for the visualisations), index.html, index.Rmd, README.txt, renv.lock, roos_van_velthoven_psy6422_200256845.Rproj and visualisation.gif (same gif as in the figs folder)
+roos_van_velthoven_psy6422_200256845 = contains the below folders and .gitignore, .Rhistory, .Rprofile, core_code.R (code for the visualisations), index.html, index.Rmd, README.txt, renv.lock, roos_van_velthoven_psy6422_200256845.Rproj and visualisation.gif (same GIF as in the figs folder)
 
 attic = code that I used to play around with, or code that I do not want to delete as I might need it later on
 data = contains two folders (processed and raw) and my codebook
